@@ -1,0 +1,229 @@
+body, html {
+  font-family: 'Cantarell', sans-serif;
+  font-family: 'Muli', sans-serif;
+  background: url(../images/voting2.jpg) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0px;
+}
+
+p {
+  font-family: 'Muli';
+}
+
+.container.candidates {
+  margin-top: 30px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cantarell';
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.bg1 {
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-bottom: 62.5%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg2 {
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-bottom: 62.5%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.accent {
+  color: red;
+}
+
+.accent-dem {
+  color: blue;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+}
+
+.intro-page {
+  text-align: center;
+  color: white;
+}
+
+.tab-content .tab-pane {
+    position: relative;
+    background-color: white;
+    padding: 18px;
+}
+
+.glyphicon {
+  font-size: 60px;
+  text-align: center;
+  display: block;
+  color: white;
+}
+
+a.glyphicon:hover {
+  color: white;
+}
+
+.vertical-align{
+  padding: 15%;
+}
+
+.box-intro {
+  background-color: rgb(29, 34, 76);
+  padding: 40px;
+}
+
+.instagram {
+  border-bottom: 1px solid gray;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+
+.instagram-profilepictures {
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+
+.box{
+  background-color: white;
+  font-weight: 700;
+  padding: 5px;
+}
+
+iframe{
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid red;
+}
+
+
+.hillary {
+  height: 400px;
+  overflow-y: scroll;
+  border: 1px solid red;
+  margin-top: 20px;
+  background-color: white;
+
+}
+
+.marco {
+  height: 400px;
+  overflow-y: scroll;
+  border: 1px solid red;
+  margin-top: 20px;
+  background-color: white;
+
+}
+
+.ted {
+  height: 400px;
+  overflow-y: scroll;
+  border: 1px solid red;
+  margin-top: 20px;
+  background-color: white;
+
+}
+
+.rand {
+  height: 400px;
+  overflow-y: scroll;
+  border: 1px solid red;
+  margin-top: 20px;
+  background-color: white;
+
+}
+
+.map {
+  height: 550px;
+  border: none;
+  background-color:white;
+  margin-top: 50px;
+}
+
+.logo {
+  font-size: 48px;
+  color: white;
+}
+
+.voting {
+  background-color: white;
+  height: 550px;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.electoral {
+  font-size: 15px;
+}
+
+
+/*Styles for Twitter*/
+
+.twitter{
+  border-bottom: 1px solid black;
+  padding: 10px;
+  background-color: white;
+
+}
+
+.screen-name{
+  vertical-align: top;
+  padding-left: 10px;
+}
+
+.profile-image {
+  display: inline;
+}
+
+.sources {
+  background-color: white;
+  text-transform: uppercase;
+}
+
+@media (max-width: 990px) {
+
+.title {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 15px;
+  line-height: 1.3;
+}
+
+.glyphicon {
+  font-size: 40px;
+}
+
+.flip-clock-wrapper {
+  display: none;
+
+}
+.clocky {
+  display: none;
+}
+
+.map {
+  height: 250px;
+}
+
+.rockthevote {
+  width: 100%;
+}
+
+}
